@@ -1,0 +1,6 @@
+{
+  "name": "EManage - Event RSVP & Attendance Data Engine",
+  "description": "Comprehensive event management, RSVP and attendance tracking with automated Python data processing, organization, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

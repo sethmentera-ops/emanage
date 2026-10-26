@@ -1,0 +1,1135 @@
+{
+  "timestamp": "2026-10-26T10:47:25.610939",
+  "global_metrics": {
+    "total_events": 3,
+    "upcoming_events": 3,
+    "ongoing_events": 0,
+    "completed_events": 0,
+    "total_guests": 50,
+    "confirmed_guests": 34,
+    "declined_guests": 16,
+    "pending_guests": 0,
+    "attended_guests": 46,
+    "absent_guests": 4,
+    "overall_confirmation_pct": 68.0,
+    "overall_turnout_pct": 135.3
+  },
+  "events_by_month": {
+    "October 2026": [
+      {
+        "id": "evt_wedding_sample",
+        "title": "Jane & Francis Wedding",
+        "desc": "Grand holy matrimony and banquet celebration at Tagaytay Ridge.",
+        "date": "2026-10-05",
+        "time": "09:00 AM",
+        "location": "Tagaytay Ridge Chapel & Glass Pavilion",
+        "month_display": "October 2026",
+        "day_display": "Oct\n05",
+        "max_guests": 50,
+        "rsvp_count": 34,
+        "status": "Upcoming",
+        "rsvp_link": "https://forms.gle/aFGNLexpupZkvvpr8",
+        "category": {
+          "type": "wedding",
+          "name": "Wedding Ceremony & Banquet",
+          "icon": "\ud83d\udc8d",
+          "theme_color": "#7c3aed"
+        },
+        "metrics": {
+          "total_invited": 50,
+          "confirmed": 34,
+          "declined": 16,
+          "pending": 0,
+          "attended": 46,
+          "absent": 4,
+          "max_guests": 50,
+          "capacity_rate_pct": 68.0,
+          "turnout_pct": 135.3
+        },
+        "guests": [
+          {
+            "id": "g_1",
+            "name": "Alexander Wright",
+            "email": "alexander.wright@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_2",
+            "name": "Beatrice Miller",
+            "email": "beatrice.m@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Absent",
+            "notes": ""
+          },
+          {
+            "id": "g_3",
+            "name": "Carlos Mendez",
+            "email": "carlos.mendez@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Absent",
+            "notes": ""
+          },
+          {
+            "id": "g_4",
+            "name": "Diana Prince",
+            "email": "diana.prince@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_5",
+            "name": "Ethan Hawke",
+            "email": "ethan.hawke@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_6",
+            "name": "Fiona Gallagher",
+            "email": "fiona.g@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Absent",
+            "notes": ""
+          },
+          {
+            "id": "g_7",
+            "name": "George Clark",
+            "email": "george.clark@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_8",
+            "name": "Hannah Abbott",
+            "email": "hannah.abbott@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_9",
+            "name": "Ian Malcolm",
+            "email": "ian.malcolm@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_10",
+            "name": "Julia Roberts",
+            "email": "julia.roberts@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_11",
+            "name": "Kevin Costner",
+            "email": "kevin.costner@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_12",
+            "name": "Laura Croft",
+            "email": "laura.croft@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_13",
+            "name": "Michael Scott",
+            "email": "michael.scott@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Absent",
+            "notes": ""
+          },
+          {
+            "id": "g_14",
+            "name": "Nora Ephron",
+            "email": "nora.e@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_15",
+            "name": "Oliver Twist",
+            "email": "oliver.t@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_16",
+            "name": "Penelope Cruz",
+            "email": "penelope.cruz@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_17",
+            "name": "Quentin Tarantino",
+            "email": "quentin.t@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_18",
+            "name": "Rachel Green",
+            "email": "rachel.green@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_19",
+            "name": "Steve Rogers",
+            "email": "steve.rogers@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_20",
+            "name": "Tina Fey",
+            "email": "tina.fey@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_21",
+            "name": "Uma Thurman",
+            "email": "uma.thurman@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_22",
+            "name": "Victor Hugo",
+            "email": "victor.hugo@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_23",
+            "name": "Wanda Maximoff",
+            "email": "wanda.m@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_24",
+            "name": "Xavier Charles",
+            "email": "xavier.c@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_25",
+            "name": "Yvonne Strahovski",
+            "email": "yvonne.s@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_26",
+            "name": "Zachary Levi",
+            "email": "zachary.l@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_27",
+            "name": "Amelia Earhart",
+            "email": "amelia.e@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_28",
+            "name": "Benjamin Franklin",
+            "email": "benjamin.f@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_29",
+            "name": "Clara Barton",
+            "email": "clara.b@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_30",
+            "name": "David Beckham",
+            "email": "david.b@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_31",
+            "name": "Emma Watson",
+            "email": "emma.watson@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_32",
+            "name": "Freddie Mercury",
+            "email": "freddie.m@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_33",
+            "name": "Grace Kelly",
+            "email": "grace.kelly@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_34",
+            "name": "Harry Potter",
+            "email": "harry.p@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_35",
+            "name": "Isla Fisher",
+            "email": "isla.f@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_36",
+            "name": "Jack Sparrow",
+            "email": "jack.sparrow@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_37",
+            "name": "Keira Knightley",
+            "email": "keira.k@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_38",
+            "name": "Leonardo DiCaprio",
+            "email": "leonardo.d@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_39",
+            "name": "Meryl Streep",
+            "email": "meryl.s@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_40",
+            "name": "Natalie Portman",
+            "email": "natalie.p@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_41",
+            "name": "Oscar Isaac",
+            "email": "oscar.i@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_42",
+            "name": "Paul Rudd",
+            "email": "paul.rudd@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_43",
+            "name": "Queen Latifah",
+            "email": "queen.l@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_44",
+            "name": "Ryan Gosling",
+            "email": "ryan.g@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_45",
+            "name": "Scarlett Johansson",
+            "email": "scarlett.j@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_46",
+            "name": "Tom Hanks",
+            "email": "tom.hanks@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_47",
+            "name": "Ursula Corbero",
+            "email": "ursula.c@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_48",
+            "name": "Vin Diesel",
+            "email": "vin.diesel@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_49",
+            "name": "Will Smith",
+            "email": "will.smith@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_50",
+            "name": "Zoe Saldana",
+            "email": "zoe.saldana@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "evt_c3ac5612",
+        "title": "Festival Joy",
+        "desc": "Event populated from Festival_Joy_Guest_List.csv",
+        "date": "2026-10-26",
+        "time": "09:00 AM",
+        "location": "Main Venue",
+        "month_display": "October 2026",
+        "day_display": "Oct\n26",
+        "max_guests": 50,
+        "rsvp_count": 0,
+        "status": "Upcoming",
+        "rsvp_link": "https://emanage-rsvp.com/confirm?event_id=evt_c3ac5612",
+        "category": {
+          "type": "general",
+          "name": "Event Celebration & Gathering",
+          "icon": "\ud83c\udf89",
+          "theme_color": "#0b1957"
+        },
+        "metrics": {
+          "total_invited": 0,
+          "confirmed": 0,
+          "declined": 0,
+          "pending": 0,
+          "attended": 0,
+          "absent": 0,
+          "max_guests": 50,
+          "capacity_rate_pct": 0.0,
+          "turnout_pct": 0.0
+        },
+        "guests": []
+      },
+      {
+        "id": "evt_ae093040",
+        "title": "New Event",
+        "desc": "Event populated from New_Event_Guest_List.csv",
+        "date": "2026-10-26",
+        "time": "09:00 AM",
+        "location": "Main Venue",
+        "month_display": "October 2026",
+        "day_display": "Oct\n26",
+        "max_guests": 50,
+        "rsvp_count": 0,
+        "status": "Upcoming",
+        "rsvp_link": "https://emanage-rsvp.com/confirm?event_id=evt_ae093040",
+        "category": {
+          "type": "general",
+          "name": "Event Celebration & Gathering",
+          "icon": "\ud83c\udf89",
+          "theme_color": "#0b1957"
+        },
+        "metrics": {
+          "total_invited": 0,
+          "confirmed": 0,
+          "declined": 0,
+          "pending": 0,
+          "attended": 0,
+          "absent": 0,
+          "max_guests": 50,
+          "capacity_rate_pct": 0.0,
+          "turnout_pct": 0.0
+        },
+        "guests": []
+      }
+    ]
+  },
+  "events_by_status": {
+    "upcoming": [
+      {
+        "id": "evt_wedding_sample",
+        "title": "Jane & Francis Wedding",
+        "desc": "Grand holy matrimony and banquet celebration at Tagaytay Ridge.",
+        "date": "2026-10-05",
+        "time": "09:00 AM",
+        "location": "Tagaytay Ridge Chapel & Glass Pavilion",
+        "month_display": "October 2026",
+        "day_display": "Oct\n05",
+        "max_guests": 50,
+        "rsvp_count": 34,
+        "status": "Upcoming",
+        "rsvp_link": "https://forms.gle/aFGNLexpupZkvvpr8",
+        "category": {
+          "type": "wedding",
+          "name": "Wedding Ceremony & Banquet",
+          "icon": "\ud83d\udc8d",
+          "theme_color": "#7c3aed"
+        },
+        "metrics": {
+          "total_invited": 50,
+          "confirmed": 34,
+          "declined": 16,
+          "pending": 0,
+          "attended": 46,
+          "absent": 4,
+          "max_guests": 50,
+          "capacity_rate_pct": 68.0,
+          "turnout_pct": 135.3
+        },
+        "guests": [
+          {
+            "id": "g_1",
+            "name": "Alexander Wright",
+            "email": "alexander.wright@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_2",
+            "name": "Beatrice Miller",
+            "email": "beatrice.m@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Absent",
+            "notes": ""
+          },
+          {
+            "id": "g_3",
+            "name": "Carlos Mendez",
+            "email": "carlos.mendez@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Absent",
+            "notes": ""
+          },
+          {
+            "id": "g_4",
+            "name": "Diana Prince",
+            "email": "diana.prince@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_5",
+            "name": "Ethan Hawke",
+            "email": "ethan.hawke@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_6",
+            "name": "Fiona Gallagher",
+            "email": "fiona.g@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Absent",
+            "notes": ""
+          },
+          {
+            "id": "g_7",
+            "name": "George Clark",
+            "email": "george.clark@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_8",
+            "name": "Hannah Abbott",
+            "email": "hannah.abbott@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_9",
+            "name": "Ian Malcolm",
+            "email": "ian.malcolm@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_10",
+            "name": "Julia Roberts",
+            "email": "julia.roberts@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_11",
+            "name": "Kevin Costner",
+            "email": "kevin.costner@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_12",
+            "name": "Laura Croft",
+            "email": "laura.croft@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_13",
+            "name": "Michael Scott",
+            "email": "michael.scott@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Absent",
+            "notes": ""
+          },
+          {
+            "id": "g_14",
+            "name": "Nora Ephron",
+            "email": "nora.e@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_15",
+            "name": "Oliver Twist",
+            "email": "oliver.t@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_16",
+            "name": "Penelope Cruz",
+            "email": "penelope.cruz@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_17",
+            "name": "Quentin Tarantino",
+            "email": "quentin.t@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_18",
+            "name": "Rachel Green",
+            "email": "rachel.green@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_19",
+            "name": "Steve Rogers",
+            "email": "steve.rogers@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_20",
+            "name": "Tina Fey",
+            "email": "tina.fey@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_21",
+            "name": "Uma Thurman",
+            "email": "uma.thurman@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_22",
+            "name": "Victor Hugo",
+            "email": "victor.hugo@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_23",
+            "name": "Wanda Maximoff",
+            "email": "wanda.m@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_24",
+            "name": "Xavier Charles",
+            "email": "xavier.c@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_25",
+            "name": "Yvonne Strahovski",
+            "email": "yvonne.s@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_26",
+            "name": "Zachary Levi",
+            "email": "zachary.l@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_27",
+            "name": "Amelia Earhart",
+            "email": "amelia.e@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_28",
+            "name": "Benjamin Franklin",
+            "email": "benjamin.f@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_29",
+            "name": "Clara Barton",
+            "email": "clara.b@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_30",
+            "name": "David Beckham",
+            "email": "david.b@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_31",
+            "name": "Emma Watson",
+            "email": "emma.watson@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_32",
+            "name": "Freddie Mercury",
+            "email": "freddie.m@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_33",
+            "name": "Grace Kelly",
+            "email": "grace.kelly@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_34",
+            "name": "Harry Potter",
+            "email": "harry.p@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_35",
+            "name": "Isla Fisher",
+            "email": "isla.f@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_36",
+            "name": "Jack Sparrow",
+            "email": "jack.sparrow@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_37",
+            "name": "Keira Knightley",
+            "email": "keira.k@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_38",
+            "name": "Leonardo DiCaprio",
+            "email": "leonardo.d@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_39",
+            "name": "Meryl Streep",
+            "email": "meryl.s@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_40",
+            "name": "Natalie Portman",
+            "email": "natalie.p@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_41",
+            "name": "Oscar Isaac",
+            "email": "oscar.i@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_42",
+            "name": "Paul Rudd",
+            "email": "paul.rudd@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_43",
+            "name": "Queen Latifah",
+            "email": "queen.l@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_44",
+            "name": "Ryan Gosling",
+            "email": "ryan.g@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_45",
+            "name": "Scarlett Johansson",
+            "email": "scarlett.j@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_46",
+            "name": "Tom Hanks",
+            "email": "tom.hanks@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_47",
+            "name": "Ursula Corbero",
+            "email": "ursula.c@example.com",
+            "invited": true,
+            "rsvp": "Declined",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_48",
+            "name": "Vin Diesel",
+            "email": "vin.diesel@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_49",
+            "name": "Will Smith",
+            "email": "will.smith@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          },
+          {
+            "id": "g_50",
+            "name": "Zoe Saldana",
+            "email": "zoe.saldana@example.com",
+            "invited": true,
+            "rsvp": "Confirmed",
+            "attendance": "Attended",
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "evt_c3ac5612",
+        "title": "Festival Joy",
+        "desc": "Event populated from Festival_Joy_Guest_List.csv",
+        "date": "2026-10-26",
+        "time": "09:00 AM",
+        "location": "Main Venue",
+        "month_display": "October 2026",
+        "day_display": "Oct\n26",
+        "max_guests": 50,
+        "rsvp_count": 0,
+        "status": "Upcoming",
+        "rsvp_link": "https://emanage-rsvp.com/confirm?event_id=evt_c3ac5612",
+        "category": {
+          "type": "general",
+          "name": "Event Celebration & Gathering",
+          "icon": "\ud83c\udf89",
+          "theme_color": "#0b1957"
+        },
+        "metrics": {
+          "total_invited": 0,
+          "confirmed": 0,
+          "declined": 0,
+          "pending": 0,
+          "attended": 0,
+          "absent": 0,
+          "max_guests": 50,
+          "capacity_rate_pct": 0.0,
+          "turnout_pct": 0.0
+        },
+        "guests": []
+      },
+      {
+        "id": "evt_ae093040",
+        "title": "New Event",
+        "desc": "Event populated from New_Event_Guest_List.csv",
+        "date": "2026-10-26",
+        "time": "09:00 AM",
+        "location": "Main Venue",
+        "month_display": "October 2026",
+        "day_display": "Oct\n26",
+        "max_guests": 50,
+        "rsvp_count": 0,
+        "status": "Upcoming",
+        "rsvp_link": "https://emanage-rsvp.com/confirm?event_id=evt_ae093040",
+        "category": {
+          "type": "general",
+          "name": "Event Celebration & Gathering",
+          "icon": "\ud83c\udf89",
+          "theme_color": "#0b1957"
+        },
+        "metrics": {
+          "total_invited": 0,
+          "confirmed": 0,
+          "declined": 0,
+          "pending": 0,
+          "attended": 0,
+          "absent": 0,
+          "max_guests": 50,
+          "capacity_rate_pct": 0.0,
+          "turnout_pct": 0.0
+        },
+        "guests": []
+      }
+    ],
+    "ongoing": [],
+    "completed": []
+  },
+  "users": [],
+  "organizer_notes": "\u2022 Prepare attendance list\n\u2022 Confirm event venue\n\u2022 Contact participants",
+  "audit_log": [
+    "[10:47:25] [INFO] \ud83d\ude80 Launching complete EManage automated data pipeline...",
+    "[10:47:25] [INFO] Starting automatic workspace scan at: /app/applet",
+    "[10:47:25] [INFO] Ingested 0 event(s) from em_events.db",
+    "[10:47:25] [INFO] Ingested 1 user(s) from users.db",
+    "[10:47:25] [INFO] Ingested 3 event(s) from JSON archive db.json",
+    "[10:47:25] [INFO] Ingested 0 guest(s) from Festival_Joy_Guest_List.csv into event 'Festival Joy'",
+    "[10:47:25] [INFO] Ingested 0 guest(s) from New_Event_Guest_List.csv into event 'New Event'",
+    "[10:47:25] [INFO] Ingested organizer notes from event_notes.txt",
+    "[10:47:25] [INFO] Auto-scan complete: 3 event(s), 50 guest(s), 1 user(s).",
+    "[10:47:25] [INFO] Exported unified SQLite database to emanage_master.db"
+  ]
+}
