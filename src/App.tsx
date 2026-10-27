@@ -337,6 +337,16 @@ const DEFAULT_EMPTY_USER: User = {
 const INITIAL_NOTES = `• Prepare attendance list\n• Confirm event venue\n• Contact participants`;
 
 // Storage Keys
+// Save / update an account on the server so it survives logout, cleared browser data, and other devices
+const saveUserToServer = (user: User) => {
+  if (!user || !user.email || !user.password) return;
+  fetch('/api/users/signup', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(user)
+  }).catch(() => {});
+};
+
 const DB_STORAGE_KEY = 'emanage_system_database_v5';
 
 // Helpers for Gmail and Email links
@@ -442,6 +452,19 @@ export default function App() {
 
   // Sync with backend Express server (keeps organizer laptop, mobile phones, and guests in real-time sync)
   useEffect(() => {
+    // 0. Push any locally saved accounts (with passwords) to the server if it doesn't have them yet
+    try {
+      const saved = localStorage.getItem(DB_STORAGE_KEY);
+      const localUsers = saved ? (JSON.parse(saved).users || []) : [];
+      if (Array.isArray(localUsers) && localUsers.length > 0) {
+        fetch('/api/users/restore', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ users: localUsers })
+        }).catch(() => {});
+      }
+    } catch (_) {}
+
     // 1. Initial fetch from server
     fetch('/api/users')
       .then(res => (res.ok ? res.json() : []))
@@ -995,6 +1018,7 @@ export default function App() {
           {authView === 'signup' && (
             <SignupForm
               onSignup={newUser => {
+                saveUserToServer(newUser);
                 setDb(prev => ({
                   ...prev,
                   users: [...prev.users, newUser],
@@ -1033,6 +1057,7 @@ export default function App() {
             <CreateNewPasswordForm
               onNavigate={setAuthView}
               onSaved={(newPassword) => {
+                db.users.forEach(u => saveUserToServer({ ...u, password: newPassword }));
                 setDb(prev => ({
                   ...prev,
                   users: prev.users.map(u => ({ ...u, password: newPassword }))
@@ -1247,6 +1272,7 @@ export default function App() {
             eventsCount={db.events.length}
             totalGuestsCount={db.events.reduce((acc, ev) => acc + ev.guests.length, 0)}
             onSaveUser={(updatedUser) => {
+              saveUserToServer(updatedUser);
               setDb(prev => ({
                 ...prev,
                 currentUser: updatedUser,
