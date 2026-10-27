@@ -146,6 +146,32 @@ app.post('/api/users/signup', (req, res) => {
   res.json({ success: true, user: userObj });
 });
 
+// API: Restore accounts from a device's local storage (only adds accounts the server is missing, never overwrites or deletes)
+app.post('/api/users/restore', (req, res) => {
+  const incoming = Array.isArray(req.body?.users) ? req.body.users : [];
+  if (!Array.isArray(dbData.users)) dbData.users = [];
+  let added = 0;
+  for (const u of incoming) {
+    if (!u || !u.email || !u.name || !u.password) continue;
+    const cleanEmail = String(u.email).trim().toLowerCase();
+    if (cleanEmail === 'jheanroseg@gmail.com') continue;
+    if (dbData.users.some((x: any) => String(x.email).toLowerCase() === cleanEmail)) continue;
+    dbData.users.push({
+      id: u.id || 'u_' + Date.now() + '_' + added,
+      name: String(u.name).trim(),
+      email: cleanEmail,
+      password: String(u.password),
+      role: u.role || 'Event Host & Admin',
+      phone: u.phone || '',
+      organization: u.organization || 'Personal Workspace',
+      createdAt: u.createdAt || ''
+    });
+    added++;
+  }
+  if (added > 0) saveDb();
+  res.json({ success: true, added });
+});
+
 // API: User Login (Authenticates users who registered on their phones/devices)
 app.post('/api/users/login', (req, res) => {
   const { email, password } = req.body;
